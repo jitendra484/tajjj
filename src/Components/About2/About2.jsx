@@ -12,7 +12,7 @@ const About2 = () => {
   return (
     <div>
         <div className='max-w-[1240px] py-10'>
-            <div className='grid grid-cols-3 gap-6 items-center'>
+            <div className='md:grid grid-cols-3 gap-6 items-center'>
                 <div className='col-span-2 '>
                     <div className='bg-[#F5F4FF] px-10 py-14'>
 
@@ -38,18 +38,14 @@ const About2 = () => {
 
             </div>
             <div className='px-10'>
-                <div className='text-center'>
-                <h2 className='text-third font-semibold  text-xl py-3'>Our Services</h2>
-                <h4 className='font-semibold text-3xl pb-3'>What We Offer</h4>
-
-                </div>
+               
            
 
-            <div className='grid grid-cols-3 gap-10'>
+            <div className='md:grid grid-cols-3 py-10 '>
 
                 <div className='col-span-1  '>
                     <div className='hover:shadow-2xl'>
-                    <div className='bg-primary text-white py-10 px-5   rounded-lg'>
+                    <div className='bg-[#F5F4FF] text-[#596579] py-10 px-5   rounded-lg'>
                     <div className='flex gap-3 items-center'>
                         <div>
                         <GiMedicines className='text-third size-[45px] py-2 rounded-full   bg-white' />
@@ -88,7 +84,7 @@ const About2 = () => {
  
                 <div className='col-span-1  '>
                     <div className='hover:shadow-2xl'>
-                    <div className='bg-fourth text-white py-10 px-5   rounded-lg'>
+                    <div className='bg-[#F5F4FF] text-[#596579] py-10 px-5   rounded-lg'>
                     <div className='flex gap-3 items-center'>
                         <div>
                         <GiMedicines className='text-third size-[45px] py-2 rounded-full   bg-white' />
@@ -127,7 +123,7 @@ const About2 = () => {
 
                 <div className='col-span-1  '>
                     <div className='hover:shadow-2xl'>
-                    <div className='bg-primary text-white py-10 px-5   rounded-lg'>
+                    <div className='bg-[#F5F4FF] text-[#596579] py-10 px-5   rounded-lg'>
                     <div className='flex gap-3 items-center'>
                         <div>
                         <GiMedicines className='text-third size-[45px] py-2 rounded-full   bg-white' />

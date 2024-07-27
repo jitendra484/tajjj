@@ -7,16 +7,16 @@ import { FaClock } from "react-icons/fa";
 
 const Top = () => {
   return (
-    <div className=' bg-third p-3'>
-        <div className='max-w-[1240px]'>
+    
+        <div className='max-w-[1240px] bg-primary p-3'>
            
 
             <div className='md:grid grid-cols-2 px-10'>
                 <div className=' hidden md:block  col-span-1'>
                     <div className=''>
-                    <ul className='text-white flex gap-5 px-5'>
-                    <li>Call Us: 548978478</li>
-                    <li> Email us: taj24@example.com</li>
+                    <ul className='text-white flex gap-3 px-5'>
+                    <li>Call: +977-01-4422911</li>
+                    <li> Email: tajnepal@gmail.com</li>
                 </ul>
                     </div>
 
@@ -27,15 +27,15 @@ const Top = () => {
                     <div className='flex items-center gap-5 justify-end  text-white'>
                         <div className='flex items-center gap-2'>
                         <span><FaClock /></span>
-                        <h4>06:00 am - 06:00 pm</h4>
+                        <h4>06:00 am - 09:00 pm</h4>
 
                         </div>
                         <div>
                         <ul className='flex  gap-3 text-white   '>
-                        <li className='hover:text-primary'><FaFacebookF /></li>
-                        <li className='hover:text-primary'><FaTwitter /></li>
-                        <li className='hover:text-primary'><AiFillInstagram /></li>
-                        <li className='hover:text-primary'><FaLinkedinIn /></li>
+                        <li className=' transition-all cursor-pointer'><FaFacebookF /></li>
+                        <li className=' transition-all cursor-pointer'><FaTwitter /></li>
+                        <li className=' transition-all cursor-pointer'><AiFillInstagram /></li>
+                        <li className=' transition-all cursor-pointer'><FaLinkedinIn /></li>
                     </ul>
 
                         </div>
@@ -50,7 +50,7 @@ const Top = () => {
 
 
      
-    </div>
+    
   )
 }
 

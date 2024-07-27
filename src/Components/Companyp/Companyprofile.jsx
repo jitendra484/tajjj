@@ -1,18 +1,24 @@
 import React from 'react'
 import company2 from '../../assets/company2.jpg'
 import companyp from '../../assets/companyp.jpg'
-import tajlogo from '../../assets/tajlogo.png'
+import tajlogo from '../../assets/tajlogo.jpg'
 
 const Companyprofile = () => {
   return (
     <div>
         <div className='max-w-[1240px] bg-[#F6F7F7]'>
-            <div className='grid grid-cols-3 gap-6 px-10 items-center'>
+            <div className='md:grid grid-cols-4 gap-6 px-10 items-center'>
               
-                <div className='col-span-1'>
-                  <div className='bg-secondary py-8 px-8'>
+                <div className='col-span-2'>
+                  <div className='bg-primary text-white py-8 px-8'>
                     <h2 className='font-semibold text-2xl text-white pb-6'> ABOUT US</h2>
-                    <p className=' text-white'>Taj Pharmaceuticals has established itself as a top generic pharmaceutical company. With a product range that exceeds 4600 compositions across all therapeutic areas, it has successfully won the heart of consumers across the globe.
+                    <p className=' '>Taj Pharmaceuticals has established itself as a top generic 
+                      pharmaceutical company. With a product range that exceeds 4600 compositions across 
+                      all therapeutic areas, it has successfully won the heart of consumers across the globe.
+                    </p>
+                    <p className=' '>Taj Pharmaceuticals has established itself as a top generic 
+                      pharmaceutical company. With a product range that exceeds 4600 compositions across 
+                      all therapeutic areas, it has successfully won the heart of consumers across the globe.
                     </p>
                  
                   
@@ -20,9 +26,9 @@ const Companyprofile = () => {
 
                 </div>
 
-                <div className='col-span-2 px-8'>
+                <div className='col-span-2 py-10 px-8'>
                   <div>
-                    <img className='w-[80%]' src={company2} alt="" />
+                    <img className='w-[100%]' src={company2} alt="" />
                   </div>
 
                 </div>
@@ -32,12 +38,12 @@ const Companyprofile = () => {
             </div>
 
             <div className=''>
-              <div className='grid grid-cols-3 py-20 px-10'>
+              <div className='md:grid grid-cols-3 gap-4 py-20 px-10'>
                 <div className='col-span-1'>
                   <div className=''>
                     <div className=''>
                       <img className=' border-2 border-gray-400' src={companyp} alt="" />
-                      <h4 className='p-4 bg-slate-200'>Automatic Capsule Line</h4>
+                     
 
                     </div>
 
@@ -45,20 +51,26 @@ const Companyprofile = () => {
 
                 </div>
 
-                <div>
+                
                   <div className='col-span-2'>
-                    <div>
-                      <div className='flex'>
-                        <img src={tajlogo} alt="" />
-                        <img src={tajlogo} alt="" />
-                        
-                        
-                      </div>
+                    <div className='px-14'>
+                      <h2 className='font-medium text-third text-xl py-10'>ABOUT TAJ NEPAL</h2>
+                      <p>About Taj Pharma
+                       Taj Pharmaceuticals has established itself as a top generic pharmaceutical company. With a product range that exceeds 4600 compositions across all therapeutic areas, it has successfully won the heart of consumers across the globe. <br />
+
+                        The company is acclaimed as one of the top 10 pharmaceutical firms in India and the world’s leader in generics. Taj Pharma India is a market leader in therapeutic fields like Critaical care, transplantation, virology, and cancer. Taj Pharma’s generics and pharmaceuticals businesses work well together, and our knowledge of the bio-similar generic drugs enable us to create individualized therapeutic strategies and integrated healthcare solutions. The range of healthcare services and products offered by Taj Pharmaceutical includes genetic risk factor screening, disease diagnosis, disease prevention, treatment, and monitoring of the effectiveness of those treatments.</p>
+                        <p>
+                        “Quality Beyond Boundaries: Taj Pharmaceuticals Redefining Healthcare”
+
+                        scientifically sound medications and services that enhance people’s health and general well-being worldwide, Taj Pharma scientists are gaining the public’s trust. Each day is a brand-new opportunity for Taj Pharma sales representatives, marketing teams, coworkers at Taj Pharma plants, and others throughout the business at all levels of responsibility.
+                        </p>
                     </div>
 
-
                   </div>
-                </div>
+
+                
+
+             
 
               </div>
 

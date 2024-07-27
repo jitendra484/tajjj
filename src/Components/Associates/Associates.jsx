@@ -1,53 +1,49 @@
 import React from 'react'
-import tajlogo from '../../assets/tajlogo.png'
+import tajlogo from '../../assets/tajlogo.jpg'
 
 const Associates = () => {
   return (
-    <div className='py-20'>
-        <div className='max-w-[1240px] '>
-        <h4 className='text-third font-semibold  text-xl text-center pb-14'  >Our Associate Business</h4>
-            <div className='grid grid-cols-4 px-32 gap-3 border-2 p-8 ' >
+   <div>
 
-                
-                <div className='col-span-1'>
-                    <img className='w-[50%]' src={tajlogo} alt="" />
+<h2 className='font-semibold text-3xl text-third text-center pt-16'>Our Associates & Partners</h2>
 
-                 </div>
+   
+<div className='max-w-[1240px] px-24 pt-44 pb-10 z-50 '>
+   
+<div className='shadow-2xl border-2 bg-slate-50  overflow-hidden mt-[-130px] '>
 
-                 <div className='col-span-1'>
-                    <img className='w-[50%]' src={tajlogo} alt="" />
+    <div className='  md:grid grid-cols-5 hidden   py-12 animate-loop-scroll   '>
 
-                 </div>
-                   
+      
+       <div className='col-span-1 flex justify-center'>
+       <img className='w-[50%]' src={tajlogo} alt="" />
+       </div>
+       <div className='col-span-1 flex justify-center'>
+       <img className='w-[50%]' src={tajlogo} alt="" />
+       </div>
+       <div className='col-span-1 flex justify-center'>
+       <img className='w-[50%]' src={tajlogo} alt="" />
+       </div>
+       <div className='col-span-1 flex justify-center'>
+       <img className='w-[50%]' src={tajlogo} alt="" />
+       </div>
+       <div className='col-span-1 flex justify-center'>
+       <img className='w-[50%]' src={tajlogo} alt="" />
+       </div>
 
-                 <div className='col-span-1'>
-                    <img className='w-[50%]' src={tajlogo} alt="" />
+     
 
-                 </div>
-                   
-
-                 <div className='col-span-1'>
-                    <img className='w-[50%]' src={tajlogo} alt="" />
-
-                 </div>
-                   
-
-                
-                
-         
-                   
-                   
-                 
-                    
-                
+       </div>
 
 
 
-            </div>
 
-        </div>
+      
+   
 
-    </div>
+   </div>
+</div>
+</div>
   )
 }
 

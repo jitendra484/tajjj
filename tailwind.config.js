@@ -6,13 +6,36 @@ export default {
   ],
   theme: {
     extend: {
+
+      animation: {
+        'loop-scroll': 'loop-scroll 15s linear infinite'
+      }, 
+      keyframes: {
+        'loop-scroll': {
+          from:{transform:'translateX(0)'},
+          to:{ transform: 'translateX(-100%)'},
+        }
+      },
+      
+
+
+
+
+
+
+
+
       colors:{
-        primary: "#16c2d5" ,
+        primary: "#0F7011" ,
         secondary: "#89dee2",
         third: "#10217d",
-        fourth: "#527c88",
-        fifth: "#f6d809"
+        fourth: "#F8FAFC",
+        fifth: "#f6d809",
+        textheadh3: "#374253",
+        textpara: "#596579"
       },
+
+      
       
     },
   },
