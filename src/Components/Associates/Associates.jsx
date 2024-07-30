@@ -8,7 +8,7 @@ const Associates = () => {
 <h2 className='font-semibold text-3xl text-third text-center pt-16'>Our Associates & Partners</h2>
 
    
-<div className='max-w-[1240px] px-24 pt-44 pb-10 z-50 '>
+<div className=' px-24 pt-44 pb-10 z-50 '>
    
 <div className='shadow-2xl border-2 bg-slate-50  overflow-hidden mt-[-130px] '>
 

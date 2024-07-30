@@ -6,27 +6,28 @@ import tajlogo from '../../assets/tajlogo.jpg'
 const Companyprofile = () => {
   return (
     <div>
-        <div className='max-w-[1240px] bg-[#F6F7F7]'>
-            <div className='md:grid grid-cols-4 gap-6 px-10 items-center'>
+        <div className='py-10 bg-[#F6F7F7]'>
+            <div className='md:grid grid-cols-4 gap-20 md:px-20 px-10 xl:gap-40 '>
               
-                <div className='col-span-2'>
-                  <div className='bg-primary text-white py-8 px-8'>
+                <div className='col-span-2 pt-10'>
+                  <div className='bg-primary text-white py-10 px-8'>
                     <h2 className='font-semibold text-2xl text-white pb-6'> ABOUT US</h2>
                     <p className=' '>Taj Pharmaceuticals has established itself as a top generic 
                       pharmaceutical company. With a product range that exceeds 4600 compositions across 
-                      all therapeutic areas, it has successfully won the heart of consumers across the globe.
+                      .
                     </p>
                     <p className=' '>Taj Pharmaceuticals has established itself as a top generic 
                       pharmaceutical company. With a product range that exceeds 4600 compositions across 
                       all therapeutic areas, it has successfully won the heart of consumers across the globe.
                     </p>
+                   
                  
                   
                   </div>
 
                 </div>
 
-                <div className='col-span-2 py-10 px-8'>
+                <div className='col-span-2 py-10 md:px-8'>
                   <div>
                     <img className='w-[100%]' src={company2} alt="" />
                   </div>
@@ -38,7 +39,7 @@ const Companyprofile = () => {
             </div>
 
             <div className=''>
-              <div className='md:grid grid-cols-3 gap-4 py-20 px-10'>
+              <div className='md:grid grid-cols-3 gap-16 py-20 md:px-20 px-10 items-center'>
                 <div className='col-span-1'>
                   <div className=''>
                     <div className=''>
@@ -53,7 +54,7 @@ const Companyprofile = () => {
 
                 
                   <div className='col-span-2'>
-                    <div className='px-14'>
+                    <div className='md:px-14'>
                       <h2 className='font-medium text-third text-xl py-10'>ABOUT TAJ NEPAL</h2>
                       <p>About Taj Pharma
                        Taj Pharmaceuticals has established itself as a top generic pharmaceutical company. With a product range that exceeds 4600 compositions across all therapeutic areas, it has successfully won the heart of consumers across the globe. <br />

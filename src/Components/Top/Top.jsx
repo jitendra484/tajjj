@@ -8,7 +8,7 @@ import { FaClock } from "react-icons/fa";
 const Top = () => {
   return (
     
-        <div className='max-w-[1240px] bg-primary p-3'>
+        <div className=' bg-primary p-3'>
            
 
             <div className='md:grid grid-cols-2 px-10'>

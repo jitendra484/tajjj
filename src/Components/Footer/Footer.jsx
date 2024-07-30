@@ -14,7 +14,7 @@ const Footer = () => {
   return (
    
         <div className=''>
-            <div className='max-w-[1240px] bg-primary pb-14'>
+            <div className=' bg-primary pb-14'>
                 <div className='md:grid grid-cols-3 px-10 pt-10 pb-5  gap-10 items-center'>
                     <div className='col-span-1'>
                         <div className='py-10 ml-5'>
@@ -126,8 +126,8 @@ const Footer = () => {
                     <MdLocationPin  className='text-2xl text-white ' />
                     
                     <div className='text-white '>
-                        <h5> Hattisar-01, Kathmandu</h5>
-                        <h5>Nepal</h5>
+                        <h5> Hattisar-01, Kathmandu, Nepal</h5>
+                        
                         
                         
 

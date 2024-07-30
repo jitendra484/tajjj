@@ -6,8 +6,8 @@ import team3 from '../../assets/team3.jpg'
 const Team = () => {
   return (
     <div>
-        <div className='max-w-[1240px]'>
-            <div className='md:grid grid-cols-3 gap-4 py-10 px-8'>
+        <div className='mx-7 '>
+            <div className='md:grid grid-cols-3 gap-5 xl:gap-20 py-10 px-8 '>
                 <div className='col-span-1 py-6 px-5'>
                     <div className=''>
                         <img className='w-[75%] rounded-lg shadow-2xl' src={team1} alt="" />

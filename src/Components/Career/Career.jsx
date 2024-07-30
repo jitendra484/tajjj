@@ -18,7 +18,7 @@ const Career = () => {
     <>
     <div className=''>
         <div className='w-max-[1240px] py-6'>
-            <div className='md:grid grid-cols-2 px-10 gap-28'>
+            <div className='md:grid grid-cols-2 md:px-10 gap-28'>
                 <div className='col-span-1 px-10 py-6'>
                     <h3 className='text-third font-semibold pb-6 text-3xl'>Career</h3>
                     <h2 className='text-4xl font-bold pb-6'>Be you, with us</h2>
@@ -28,7 +28,7 @@ const Career = () => {
 
                 </div>
 
-                <div className='col-span-1 px-10'>
+                <div className='col-span-1 px-10 pt-10'>
                     <img className='w-[80%]' src={career} alt="" />
 
                 </div>
@@ -37,7 +37,7 @@ const Career = () => {
 
 
             <div className='py-10'>
-                <h3 className='text-third font-semibold py-10 text-2xl px-48'>Job Opening</h3>
+                <h3 className='text-third font-semibold py-10 text-2xl md:px-48 px-20'>Job Opening</h3>
 
                 
 

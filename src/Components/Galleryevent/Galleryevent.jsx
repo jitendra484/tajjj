@@ -9,8 +9,9 @@ import img6 from '../../assets/img6.jpg'
 
 const Galleryevent = () => {
   return (
-    <div>
+    <div className='mx-10'>
         <h2 className=' px-10 pt-10 font-semibold text-3xl text-third'>Event 1</h2>
+        <p className='text-textpara font-medium text-lg md:px-10 py-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde modi dignissimos dolorum quod illum. Aliquid rem ut praesentium quod, optio animi delectus accusamus, distinctio neque eos fuga debitis consequatur tenetur</p>
         <div className='md:grid grid-cols-4 px-10 py-10'>
             
             <div className='col-span-1 py-10'>

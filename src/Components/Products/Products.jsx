@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom'
 
 const Products = () => {
   return (
-    <div>
+    <div className='mx-10'>
         <h2 className='font-semibold text-third text-2xl text-center py-6'>Our All Products</h2>
-        <div className='md:grid grid-cols-5 px-10 gap-5' >
+        <div className='md:grid grid-cols-5 px-10 gap-5 md:gap-10' >
             <div className='col-span-1 pt-10'>
                 <Link to='/Product1'>  
                 <div className='  bg-fourth transition-all cursor-pointer p-5 py-5 shadow-[rgba(0,_0,_0,_0.34)_0px_3px_10px] rounded-t-md ease-in-out  delay-150 hover:-translate-y-1 hover:scale-110  duration-200'>

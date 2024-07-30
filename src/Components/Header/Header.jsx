@@ -23,6 +23,8 @@ import Products from '../Products/Products';
 import Product1 from '../Product1/Product1';
 import Gallery from '../Gallery/Gallery';
 import Galleryevent from '../Galleryevent/Galleryevent';
+import Partners from '../Partners&Associates/Partners';
+import Partner1 from '../Partner1/Partner1';
 
 
 
@@ -36,9 +38,9 @@ const Header = () => {
     <>
    
     
-        <div className='  max-w-[1240px] py-6'>
+        <div className='   py-6'>
             <div className='hidden md:block'> 
-            <div className=' grid grid-cols-2 px-16  '>
+            <div className=' grid grid-cols-2 px-12  '>
                 <div className='col-span-1'>
                 <div>
                     <img className='w-20 ' src={tajlogo} alt="" />
@@ -85,7 +87,7 @@ const Header = () => {
 
                     </div>
                    
-                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer  font-medium text-lg p-2 '><Link to='/Associates'>Associates</Link> </li>
+                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer  font-medium text-lg p-2 '><Link to='/Partners'>Associates</Link> </li>
 
                     
                     <li className='hover:text-[#0a3f6a] transition-all cursor-pointer font-medium  text-lg p-2'><Link to='/Products'>Products</Link></li>
@@ -157,17 +159,17 @@ const Header = () => {
           
           ${toggle ? 'left-[0%]' : 'left-[100%]'}
            `}>
-                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'>Home</li>
-                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'>About </li>
-                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'> Associates</li>
-                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'>Products</li>
+                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/'>Home</Link></li>
+                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/Companyprofile'>About</Link></li>
+                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/Partners'> Associates</Link></li>
+                    <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/Products'>Products</Link></li>
 
                    
            
                     <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/Activities'>Activities</Link></li>
                     <li className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/Career'>Career</Link></li>
                     
-                    <li  className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'>Contact</li>
+                    <li  className='hover:text-[#0a3f6a] transition-all cursor-pointer p-2'><Link to='/Contact'>Contact</Link></li>
                     </ul>
 
                     </div>
@@ -197,6 +199,8 @@ const Header = () => {
         <Route path='/Product1' element={<Product1/>}/>
         <Route  path='/Gallery' element={<Gallery/>}/>
         <Route  path='/Galleryevent' element={<Galleryevent/>}/>
+        <Route path='/Partners' element={<Partners/>}/>
+        <Route path='/Partner1' element={<Partner1/>}/>
         
 
 

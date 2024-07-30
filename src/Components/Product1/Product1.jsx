@@ -10,7 +10,7 @@ import { useState } from 'react';
 const Product1 = () => {
   const [Product1Open, setProduct1Open] = useState(false);
   return (
-    <div className='px-10 py-10'>
+    <div className='md:mx-20 mx-10 py-10'>
       <h2 className='font-semibold text-third text-2xl px-5'>Product1</h2>
       <div className='md:grid grid-cols-2 gap-3'>
         <div className='col-span-1'>
@@ -81,43 +81,43 @@ const Product1 = () => {
          
             <tr>
               <td className='font-medium'>Product Name</td>
-              <td  className='pl-20'>Darunavir Ethanolate & Ritonavir Tablets</td>
+              <td  className='md:pl-20 pl-10'>Darunavir Ethanolate & Ritonavir Tablets</td>
             </tr>
             <tr>
               <td className='font-medium'>Brand Name:	</td>
-              <td className='pl-20'>Generic</td>
+              <td className='md:pl-20 pl-10'>Generic</td>
             </tr>
             <tr>
               <td className='font-medium'>Strength:</td>
-              <td className='pl-20'>	(400mg+50mg), (600mg+100mg), (800mg+100mg)</td>
+              <td className='md:pl-20 pl-10'>	(400mg+50mg), (600mg+100mg), (800mg+100mg)</td>
             </tr>
             <tr>
               <td className='font-medium'>Dosage Form:	</td>
-              <td className='pl-20'>Tablets (film-coated)</td>
+              <td className='md:pl-20 pl-10'>Tablets (film-coated)</td>
             </tr>
             <tr>
               <td className='font-medium'>Route of Administration:</td>
-              <td className='pl-20'>	Via Oral Route</td>
+              <td className='md:pl-20 pl-10'>	Via Oral Route</td>
             </tr>
             <tr>
               <td className='font-medium'>Packing:	</td>
-              <td className='pl-20'>30 Tablets in a bottle</td>
+              <td className='md:pl-20 pl-10'>30 Tablets in a bottle</td>
             </tr>
             <tr>
               <td className='font-medium'>Pack Insert/Leaflet:	</td>
-              <td className='pl-20'>PIL (Patient Information Leaflet), SmPC (Summary Product Characteristics)</td>
+              <td className='md:pl-20 pl-10'>PIL (Patient Information Leaflet), SmPC (Summary Product Characteristics)</td>
             </tr>
             <tr>
               <td className='font-medium'>Regulatory Documents:	Dossier</td>
-              <td className='pl-20'>COA, MOA, COPP, FSC, Stability Studies, GMP, CTD </td>
+              <td className='md:pl-20 pl-10'>COA, MOA, COPP, FSC, Stability Studies, GMP, CTD </td>
             </tr>
             <tr>
               <td className='font-medium'>Therapeutic use:	</td>
-              <td className='pl-20'>Protease Inhibitors, Antiviral </td>
+              <td className='md:pl-20 pl-10'>Protease Inhibitors, Antiviral </td>
             </tr>
             <tr>
               <td className='font-medium'>Storage:	</td>
-              <td className='pl-20'>Store at a temperature not exceeding 30℃. Store in a cool & dry place. Protect from Light & moisture. </td>
+              <td className='md:pl-20 pl-10'>Store at a temperature not exceeding 30℃. Store in a cool & dry place. Protect from Light & moisture. </td>
             </tr>
 
             

@@ -10,14 +10,14 @@ import { Link } from 'react-router-dom';
 const Activities = () => {
   return (
     <div>
-        <div className='max-w-[1240px]'>
-            <div className='md:grid grid-cols-1 py-10 px-10'>
+        <div className=''>
+            <div className=' gap-20 py-10 px-16'>
                 <h2 className='font-semibold text-3xl text-third'>HEALTHCARE News & Insights</h2>
                 <p className='text-textpara py-2'>Latest Health News, Diet, Fitness, Medical, Nutrition News</p>
 
             </div>
 
-            <div className='md:grid grid-cols-3 gap-6 px-10 pb-20'>
+            <div className='md:grid grid-cols-3  xl:gap-20 gap-20 px-16 xl:20 pb-20'>
                 <div className='col-span-1'>
                     <div>
                     <Link to='/News'>
@@ -25,7 +25,7 @@ const Activities = () => {
                         
                    
                         <img className='rounded-xl shadow-[rgba(0,_0,_0,_0.84)_0px_3px_10px] cursor-pointer' src={news1} alt="" />
-                        <div className='flex gap-16 py-4 px-10'>
+                        <div className='flex md:gap-16 gap-10 py-4 md:px-10'>
                         <p> By TAJ</p>
                         <div className='flex items-center'>
                         <CgCalendarDates className='text-[#104BCA] text-lg' />
@@ -59,7 +59,7 @@ const Activities = () => {
                     <div className=''>
                          <Link to='/News'>
                         <img className='rounded-xl shadow-[rgba(0,_0,_0,_0.84)_0px_3px_10px]' src={news2} alt="" />
-                        <div className='flex gap-16 py-4 px-10'>
+                        <div className='flex md:gap-16 gap-10 py-4 md:px-10'>
                         <p> By TAJ</p>
                         <div className='flex items-center'>
                         <CgCalendarDates className='text-[#104BCA] text-lg' />
@@ -88,7 +88,7 @@ const Activities = () => {
                     <div>
                         <Link to='/News'>
                         <img className='rounded-xl shadow-[rgba(0,_0,_0,_0.84)_0px_3px_10px]' src={news3} alt="" />
-                        <div className='flex gap-16 py-4 px-10'>
+                        <div className='flex md:gap-16 gap-10 py-4 md:px-10'>
                         <p> By TAJ</p>
                         <div className='flex items-center'>
                         <CgCalendarDates className='text-[#104BCA] text-lg' />

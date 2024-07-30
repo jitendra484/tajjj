@@ -4,8 +4,8 @@ import mission from '../../assets/mission.jpg'
 const Mission = () => {
   return (
     <div>
-        <div className='max-w-[1240px]'>
-            <div className='md:grid grid-cols-2 gap-10 py-10 items-center'>
+        <div className=''>
+            <div className='md:grid grid-cols-2 gap-20 xl:gap-32 py-10 px-10 items-center'>
                 <div className='col-span-1'>
                     <div>
                         <img src={mission} alt="" />

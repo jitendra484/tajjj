@@ -4,7 +4,7 @@ import React from 'react'
 const Hero = () => {
   return (
     <div className='hidden md:block' >
-        <div className='max-w-[1240px]'>
+        <div className=''>
             <div className='min-h-screen   lg:px-32 px-5 bg-[url("./assets/bg1.png")] bg-cover bg-no-repeat'>
             <div className=' pt-[150px]'>
             <div className='bg-primary h-[200px] w-[630px]'>

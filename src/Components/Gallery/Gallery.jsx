@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 const Gallery = () => {
   return (
     <div className='bg-[#F6F7F7]'>
-        <h2 className=' px-20 py-10 font-semibold text-3xl text-third'>Our Events Gallery</h2>
-        <div className='md:grid grid-cols-3 py-10 px-20'>
+        <h2 className='px-10 md:px-20 py-10 font-semibold text-3xl text-third'>Our Events Gallery</h2>
+        <div className='md:grid grid-cols-3 py-10 px-16 md:px-20'>
             
             <div className='col-span-1 py-8 md:py-0'>
                 <div className=' '>
@@ -77,7 +77,7 @@ const Gallery = () => {
 
         </div>
 
-        <div className='md:grid grid-cols-3 py-10 px-20'>
+        <div className='md:grid grid-cols-3 py-10 px-16 md:px-20'>
             <div className='col-span-1 '>
                 <div className=' '>
                 <Link  to='/Galleryevent'>

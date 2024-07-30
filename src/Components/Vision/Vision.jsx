@@ -4,8 +4,8 @@ import vision from '../../assets/vision.jpeg'
 const Vision = () => {
   return (
     <div>
-         <div className='max-w-[1240px]'>
-            <div className='grid grid-cols-2 gap-10 py-10 items-center'>
+         <div className=''>
+            <div className='md:grid grid-cols-2 gap-20 xl:gap-40 py-10 items-center'>
                 <div className='col-span-1 px-16'>
                     <div>
                         <img src={vision} alt="" />
@@ -13,8 +13,8 @@ const Vision = () => {
 
                 </div>
                 <div className='col-span-1'>
-                    <div>
-                        <h3 className='font-semibold text-third text-xl pb-6'>Our Mission</h3>
+                    <div className='px-10 py-10'>
+                        <h3 className='font-semibold text-third text-xl pb-6'>Our Vision</h3>
                         <h2 className='text-4xl font-bold pb-6 text-textheadh3'>100% customer satisfaction.</h2>
                         
                         <p className='text-gray-500 pb-8'>

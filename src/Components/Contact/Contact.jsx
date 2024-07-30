@@ -18,9 +18,9 @@ const Contact = () => {
 
     
 
-    <div className='max-w-[1240px] py-6'>
-        <div className='md:grid grid-cols-3 gap-5 px-20'>
-            <div className='col-span-1 py-5'>
+    <div className=' py-6'>
+        <div className='md:grid grid-cols-2 gap-20 xl:gap-40 md:px-20'>
+            <div className='col-span-1 px-10 py-5'>
                 <h3 className='text-third font-semibold pb-6 text-xl'>Contact Us</h3>
                 <h2 className='text-4xl font-bold pb-6'>If you have any enquiry, Please contact us</h2>
                 <p className='text-gray-500 pb-8'>Taj Pharma India's business can be contacted by below quick query ; you shale be forwarded to the relevant departments; additionally, telephone lines +91 - 22 - 2637 4592 / 2637 4593 can be utilised if -you have an enquiry about the company, our healthcare business, or one of our medicines at India Standard Time (IST).</p>
@@ -77,7 +77,7 @@ const Contact = () => {
             </div>
 
 
-            <div className='md:col-span-2 md:px-28 pt-24'>
+            <div className='md:col-span-1 px-10  pt-24'>
                 <div className='pb-10'>
                     <label className='font-medium'>Full Name:</label>
                     <div className='mt-2'>

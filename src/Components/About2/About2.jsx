@@ -11,8 +11,8 @@ import Button from '../../Layout/Button';
 const About2 = () => {
   return (
     <div>
-        <div className='max-w-[1240px] py-10'>
-            <div className='md:grid grid-cols-3 gap-6 items-center'>
+        <div className=' py-10 md:mx-20 mx-10'>
+            <div className='md:grid grid-cols-3 gap-16 xl:gap-40 items-center'>
                 <div className='col-span-2 '>
                     <div className='bg-[#F5F4FF] px-10 py-14'>
 
@@ -29,7 +29,7 @@ const About2 = () => {
                     </div>
                 </div>
 
-                <div className='col-span-1'>
+                <div className='col-span-1 py-10'>
                     <div className=''>
                         <img className='w-[90%] shadow-2xl ' src={abp} alt="" />
                     </div>
@@ -37,7 +37,7 @@ const About2 = () => {
                 </div>
 
             </div>
-            <div className='px-10'>
+            <div className=''>
                
            
 
